@@ -1,5 +1,5 @@
 
-### Features - 
+### Features
 
 - Modern Stack
 - Minimal Design
