@@ -1,78 +1,61 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
-  headerTaglineOne: "Hello 👋",
+  name: "Irving",
+  headerTaglineOne: "Hola 👋",
   headerTaglineTwo:
-    "I'm Chetan Verma - curious designer and devloper based in New Delhi, India. ",
+    "Soy Irving Acosta - Desarrollador web, Maestro en Tecnologías de Información y Comunicaciones. ",
 
   socials: [
-    { title: "Github", link: "https://github.com/chetanverma16" },
-    { title: "LinkedIn", link: "https://www.linkedin.com/in/chetanverma7/" },
-    { title: "Twitter", link: "https://twitter.com/realchetanverma" },
-    { title: "Blog", link: "https://blog.chetanverma.com/" },
-    { title: "Email", link: "mailto:hello@chetanverma.com" },
+    { title: "Github", link: "https://github.com/reeyhdz" },
+    { title: "LinkedIn", link: "https://www.linkedin.com/in/reeyhdz/" },
+    { title: "Twitter", link: "https://twitter.com/reeyhdz" },
+    // { title: "Blog", link: "https://blog.chetanverma.com/" },
+    { title: "Email", link: "mailto:reeyhdz@gmail.com" },
   ],
 
   // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
-    {
-      title: "Project One", //Project Title - Add Your Project Title Here
-      description: "Web Design",
+        {
+      title: "Spin By Oxxo", //Project Title - Add Your Project Title Here
+      description: "React Native App",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://spinbyoxxo.com.mx/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
-      description: "Web Development",
+      title: "Tec.mx", //Project Title - Add Your Project Title Here
+      description: "Web Design | Web Development",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://tec.mx/es/profesional",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      description: "Design",
+      title: "Tec Contact Hub", //Project Title - Add Your Project Title Here
+      description: "Web Design | Web Development",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://admision.tec.mx/contact-hub",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Datart", //Project Title - Add Your Project Title Here
       description: "Marketing",
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      description: "Development",
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      description: "Design & Development",
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://datart.com.mx/",
     },
 
     /*
@@ -92,24 +75,24 @@ export default {
 
   services: [
     {
-      title: "Art Direction",
+      title: "Desarrollo Web",
       description:
-        "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance.",
+        "Creación de landings, páginas web y sistemas de gestión de contenido con base a las necesidades del cliente.",
     },
     {
-      title: "Branding",
+      title: "Optimización SEO",
       description:
-        "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors.",
+        "Optimización de contenido y posicionamiento de páginas web para mejorar el posicionamiento en los motores de búsqueda.",
     },
     {
-      title: "Web Design",
+      title: "Consultorías de tecnología",
       description:
-        "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel.",
+        "Consultoría tecnológica con base a las necesidades y las reglas del negocio del cliente.",
     },
     {
-      title: "3D Design",
+      title: "Estrategia digital",
       description:
-        "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life.",
+        "Estrategia de marketing digital para mejorar la visibilidad de su marca en los medios digitales.",
     },
   ],
 
@@ -117,7 +100,7 @@ export default {
 
   // About Secton --------------
   aboutpara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    `Con más de 5 años de experiencia en el área de la tecnología de la información, estoy convencido que la innovación nos brinda una ventaja altamente competitiva y nos permite diferenciarnos estratégicamente de nuestra competencia. Durante esta trayectoria he podido conformar un perfil multidisciplinario con bases sólidas en la programación (front-end y back-end) pero también en la gestión de proyectos (cascada y ágiles) sin dejar de lado la experiencia que brindamos al usuario (UX). `,
   //   End About Section ---------------------
 };
 
