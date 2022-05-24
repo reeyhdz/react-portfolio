@@ -26,7 +26,7 @@ export default {
       description: "React Native App",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "",
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/spinbyoxxo.png?raw=true",
       //Project URL - Add Your Project Url Here
       url: "https://spinbyoxxo.com.mx/",
     },
@@ -35,7 +35,7 @@ export default {
       description: "Web Design | Web Development",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "",
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/tecmx.png?raw=true",
       //Project URL - Add Your Project Url Here
       url: "http://tec.mx/es/profesional",
     },
@@ -44,7 +44,7 @@ export default {
       description: "Web Design | Web Development",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "",
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/contact.png?raw=true",
       //Project URL - Add Your Project Url Here
       url: "https://admision.tec.mx/contact-hub",
     },
@@ -53,7 +53,7 @@ export default {
       description: "Marketing",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/Datart.png?raw=true",
       //Project URL - Add Your Project Url Here
       url: "https://datart.com.mx/",
     },
