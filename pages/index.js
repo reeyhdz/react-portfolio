@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
+import { Analytics } from '@vercel/analytics/react';
 
 // Local Data
 import data from "../yourData";
@@ -31,19 +32,18 @@ export default function Home() {
   };
 
   return (
-    <div className="container-flex mx-auto mb-10 p-4">
+    <><Analytics /><div className="container-flex mx-auto mb-10 p-4">
       <Header
         handleWorkScroll={handleWorkScroll}
-        handleAboutScroll={handleAboutScroll}
-      />
+        handleAboutScroll={handleAboutScroll} />
       <div className="laptop:mt-20 mob:mt-10">
         <h1 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
           {data.headerTaglineOne} <br />
-         Soy <em className="text-indigo-700 font-semibold">Irving Acosta</em> - Desarrollador web, Maestro en Tecnologías de Información y Comunicaciones. 
+          Soy <em className="text-indigo-700 font-semibold">Irving Acosta</em> - Desarrollador web, Maestro en Tecnologías de Información y Comunicaciones.
         </h1>
         <Socials className="mt-5 mob:mt-2 laptop:mt-5" />
       </div>
-            <div
+      <div
         className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={aboutRef}>
         <h1 className="text-2xl text-bold text-indigo-700 font-semibold">Acerca de mi</h1>
@@ -58,8 +58,7 @@ export default function Home() {
             <ServiceCard
               key={index}
               name={service.title}
-              description={service.description}
-            />
+              description={service.description} />
           ))}
         </div>
       </div>
@@ -74,12 +73,11 @@ export default function Home() {
               img={project.imageSrc}
               name={project.title}
               description={project.description}
-              onClick={() => window.open(project.url)}
-            />
+              onClick={() => window.open(project.url)} />
           ))}
         </div>
       </div>
-      
+
       <div className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-2xl text-bold text-indigo-700 font-semibold">Contact.</h1>
         <div className="mt-5">
@@ -92,6 +90,6 @@ export default function Home() {
           <a className="underline underline-offset-1">Irving Acosta</a>
         </Link>
       </h1>
-    </div>
+    </div></>
   );
 }
