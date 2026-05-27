@@ -12,7 +12,6 @@ export default {
   socials: [
     { title: "Github", link: "https://github.com/reeyhdz" },
     { title: "LinkedIn", link: "https://www.linkedin.com/in/reeyhdz/" },
-    { title: "Twitter", link: "https://twitter.com/reeyhdz" },
     // { title: "Blog", link: "https://blog.chetanverma.com/" },
     { title: "Email", link: "mailto:reeyhdz@gmail.com" },
   ],
@@ -56,6 +55,60 @@ export default {
         "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/Datart.png?raw=true",
       //Project URL - Add Your Project Url Here
       url: "https://datart.com.mx/",
+    },
+    {
+      title: "Joe and the Juice", //Project Title - Add Your Project Title Here
+      description: "Web Design | Web Development",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/joeandthejuice.png?raw=true",
+      //Project URL - Add Your Project Url Here
+      url: "https://joeandthejuice.com.mx/",
+    },
+    {
+      title: "It Gets Better México", //Project Title - Add Your Project Title Here
+      description: "Web Design | Web Development",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/itgetsbetter.png?raw=true",
+      //Project URL - Add Your Project Url Here
+      url: "https://itgetsbettermx.org/",
+    },
+    {
+      title: "Mis Pronombres cuentan", //Project Title - Add Your Project Title Here
+      description: "Web Design | Web Development",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/pronombres.png?raw=true",
+      //Project URL - Add Your Project Url Here
+      url: "https://www.mispronombrescuentan.org/",
+    },
+    {
+      title: "It gets better ChangeMakers", //Project Title - Add Your Project Title Here
+      description: "Web Design | Web Development",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/changemakers.png?raw=true",
+      //Project URL - Add Your Project Url Here
+      url: "https://www.itgetsbetterchangemakers.org/",
+    },
+    {
+      title: "It gets better IMI", //Project Title - Add Your Project Title Here
+      description: "Web Design | Web Development",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/imi.png?raw=true",
+      //Project URL - Add Your Project Url Here
+      url: "https://imi.guide/",
+    },
+    {
+      title: "Salud Comunitaria", //Project Title - Add Your Project Title Here
+      description: "Web Design | Web Development",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://github.com/reeyhdz/react-portfolio/blob/main/public/static/images/saludcomunitaria.png?raw=true",
+      //Project URL - Add Your Project Url Here
+      url: "https://www.saludcomunitaria.info/",
     },
 
     /*
