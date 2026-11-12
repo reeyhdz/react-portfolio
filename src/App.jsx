@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Header from "./components/Header";
 import HeroField from "./components/HeroField";
 import MagneticName from "./components/MagneticName";
@@ -70,6 +71,7 @@ export default function App() {
   return (
     <>
       <Analytics />
+      <SpeedInsights />
       <a href="#main-content" className="skip-link">
         Saltar al contenido
       </a>
