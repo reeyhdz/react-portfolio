@@ -2,7 +2,7 @@ export default {
   name: "Irving Acosta",
   headerTaglineOne: "Hola 👋",
   headerTaglineTwo:
-    "Desarrollador web, Maestro en Tecnologías de Información y Comunicaciones.",
+    "Desarrollador de Software, Maestro en Tecnologías de Información y Comunicaciones y Especialista en Innovación.",
   email: "mailto:reeyhdz@gmail.com",
 
   socials: [
@@ -110,5 +110,5 @@ export default {
   ],
 
   aboutpara:
-    "Con más de 5 años de experiencia en el área de la tecnología de la información, estoy convencido que la innovación nos brinda una ventaja altamente competitiva y nos permite diferenciarnos estratégicamente de nuestra competencia. Durante esta trayectoria he podido conformar un perfil multidisciplinario con bases sólidas en la programación (front-end y back-end) pero también en la gestión de proyectos (cascada y ágiles) sin dejar de lado la experiencia que brindamos al usuario (UX).",
+    "Con más de 8 años de experiencia en el área de la tecnología de la información, estoy convencido que la innovación nos brinda una ventaja altamente competitiva y nos permite diferenciarnos estratégicamente de nuestra competencia. Durante esta trayectoria he podido conformar un perfil multidisciplinario con bases sólidas en la programación (front-end y back-end) pero también en la gestión de proyectos (cascada y ágiles) sin dejar de lado la experiencia que brindamos al usuario (UX).",
 };

@@ -206,6 +206,18 @@
     padding-bottom: var(--space-8);
   }
 
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    margin-inline: calc(var(--page-gutter) * -1);
+    padding-inline: var(--page-gutter);
+    padding-top: max(var(--space-2), env(safe-area-inset-top));
+    padding-bottom: var(--space-2);
+    background-color: var(--color-canvas);
+    border-bottom: 1px solid var(--color-line);
+  }
+
   .section-stack {
     display: flex;
     flex-direction: column;
