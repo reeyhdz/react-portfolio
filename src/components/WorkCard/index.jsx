@@ -1,24 +1,57 @@
 import React from "react";
 
-const WorkCard = ({ img, name, description, onClick }) => {
+const WorkCard = ({
+  img,
+  name,
+  description,
+  url,
+  featured = false,
+  transitionName,
+  active = false,
+  onOpen,
+}) => {
+  const handleClick = (e) => {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) {
+      return;
+    }
+    e.preventDefault();
+    onOpen?.();
+  };
+
   return (
-    <div
-      className="overflow-hidden cursor-pointer rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0"
-      onClick={onClick}
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={handleClick}
+      aria-haspopup="dialog"
+      className={`group work-card rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand ${
+        featured ? "work-card--featured" : ""
+      }`}
     >
       <div
-        className="overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-95 mob:h-48"
-        style={{ height: "600px" }}
+        className="work-media"
+        style={{
+          viewTransitionName: active ? "none" : transitionName,
+        }}
       >
-        <img alt={name} className="h-full w-full object-cover" src={img} />
+        <img
+          alt={name ? `Captura de ${name}` : "Captura del proyecto"}
+          className="h-full w-full object-cover object-top"
+          src={img}
+          loading={featured ? "eager" : "lazy"}
+          decoding="async"
+          width={1280}
+          height={800}
+        />
       </div>
-      <h1 className="mt-5 text-3xl font-medium">
-        {name ? name : "Project Name"}
-      </h1>
-      <h2 className="text-xl opacity-50">
-        {description ? description : "Description"}
-      </h2>
-    </div>
+      <div className="work-card__meta">
+        <h3 className="type-title transition-colors duration-200 group-hover:text-brand group-focus-visible:text-brand">
+          {name}
+        </h3>
+        {description ? <p className="type-supporting">{description}</p> : null}
+      </div>
+    </a>
   );
 };
 

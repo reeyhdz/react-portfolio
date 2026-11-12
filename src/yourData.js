@@ -13,6 +13,18 @@ export default {
 
   projects: [
     {
+      title: "I Juegos Panamericanos Virtus 2026",
+      description: "Web Design | Web Development",
+      imageSrc: "/static/images/panamvirtus2026.png",
+      url: "https://www.panamvirtus2026.com/",
+    },
+    {
+      title: "Paralímpicos MX",
+      description: "Web Design | Web Development",
+      imageSrc: "/static/images/paralympics-mx.png",
+      url: "https://paralympics-mx-monitor.vercel.app/",
+    },
+    {
       title: "Spin By Oxxo",
       description: "React Native App",
       imageSrc: "/static/images/spinbyoxxo.png",

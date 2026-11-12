@@ -2,15 +2,18 @@ import React from "react";
 import Button from "../Button";
 import data from "../../yourData";
 
-const Header = ({ handleWorkScroll, handleAboutScroll }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll, headerRef }) => {
   return (
-    <div className="mt-6 flex items-center justify-between sticky top-0 z-10 bg-white">
-      <div>
+    <header
+      ref={headerRef}
+      className="sticky top-0 z-10 -mx-[var(--page-gutter)] px-[var(--page-gutter)] py-2 bg-canvas border-b border-line pt-[max(0.5rem,env(safe-area-inset-top))]"
+    >
+      <nav className="flex flex-wrap items-center gap-1" aria-label="Principal">
         <Button onClick={handleWorkScroll}>Trabajos</Button>
         <Button onClick={handleAboutScroll}>Acerca de</Button>
-        <Button onClick={() => window.open(data.email)}>Contacto</Button>
-      </div>
-    </div>
+        <Button href={data.email}>Contacto</Button>
+      </nav>
+    </header>
   );
 };
 
