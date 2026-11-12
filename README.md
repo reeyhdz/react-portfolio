@@ -1,23 +1,31 @@
+# Irving Acosta — Portafolio
 
-### Features
+Portafolio personal de Irving Acosta, desarrollado con Vite, React y Tailwind CSS.
 
-- Modern Stack
-- Minimal Design
-- Easy To Customize
-- Easy To Browse
-
-
-### Sections
+## Secciones
 
 - Header
-- Work
-- Services
-- About
-- Contact
+- Acerca de
+- Servicios
+- Proyectos
+- Contacto
 
-### Tech Stack Used - 
-- Next.js
-- TailwindCSS
+## Desarrollo
 
+```bash
+npm install
+npm run dev
+```
 
+## Build
 
+```bash
+npm run build
+npm run preview
+```
+
+## Stack
+
+- Vite
+- React
+- Tailwind CSS

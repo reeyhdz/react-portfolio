@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "ai-color-palette",
+        "value": "*",
+        "files": [
+          "src/App.jsx"
+        ],
+        "createdAt": "2026-11-12T17:20:55.578Z",
+        "reason": "user confirmed: opción A conservar diseño incumbent en migración Vite; text-indigo-700 ya existía en pages/index.js"
+      }
+    ]
+  }
+}
